@@ -53,6 +53,7 @@ color: brown;
 #colorful{
     color: brown;
 }
+
 .image>img{
     width: 275px;
     height: 200px;
@@ -85,4 +86,47 @@ color: brown;
     border: none;
     border-radius: 20px;
     color: rgb(245, 244, 241);
+}
+
+
+
+
+
+
+
+/* Responsiv  */
+
+    
+@media screen and (max-width:576px) {
+    #nevberSection{
+      
+        flex-direction: column;
+       
+    
+    }
+    #bannerSection{
+        background-image: url(image/bn.png);
+        height: 40vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+       
+    }
+    #CarSection{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 30px;
+    }
+    #CardimgDiv{
+        
+        flex-direction: column;   
+    }
+    .image>img{
+        width: 420px;
+        height: 300px;
+    }
+
 }

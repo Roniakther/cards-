@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nevberSEction  */
+#nevberSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 30px;
+    background-color: rgb(241, 213, 217);
+
+}
+#nevberSection>h1:hover{
+    color: red;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+li:hover{
+color: brown;
+}
+/* bannerSection  */
+#bannerSection{
+    background-image: url(image/bn.png);
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+}
+/* cardSection  */
+#CarSection{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+#DesDIV{
+    text-align: center;
+}
+#colorful{
+    color: brown;
+}
+.image>img{
+    width: 275px;
+    height: 200px;
+}
+
+
+#CardimgDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+   
+}
+.cardmain{
+    border: 2px solid rgb(163, 128, 128);
+   
+   
+    
+}
+.Text{
+    padding: 10px 20px;
+}
+
+.Text>p{
+    color: brown;
+}
+.buttons{
+    background-color: rgb(14, 13, 13);
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 20px;
+    color: rgb(245, 244, 241);
+}
